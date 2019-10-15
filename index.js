@@ -1,10 +1,10 @@
 CLASSES = {
-  0: 'class0',
-  1: 'class1',
-  2: 'class2',
-  3: 'class3',
-  4: 'class4',
-  5: 'class5',
+  0: 'Butler',
+  1: 'Mudd Statue',
+  2: 'Uris Sculpture',
+  3: 'Hamilton Statue',
+  4: 'Lion Statue',
+  5: 'Philosophy Statue',
 };
 
 const MODEL_PATH =
@@ -27,7 +27,7 @@ const demo = async () => {
   status('');
 
   // Make a prediction through the locally hosted cat.jpg.
-  const catElement = document.getElementById('cat');
+  const catElement = document.getElementById('Butler_Library_Columbia_University');
   if (catElement.complete && catElement.naturalHeight !== 0) {
     predict(catElement);
     catElement.style.display = '';
