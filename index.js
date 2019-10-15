@@ -11,7 +11,7 @@ const MODEL_PATH =
     'model.json';
 
 const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const TOPK_PREDICTIONS = 6;
 
 let my_model;
 const demo = async () => {
